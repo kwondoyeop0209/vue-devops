@@ -33,7 +33,7 @@ jobs:
           node-version: 14.x
 
       - name: Build page
-        run: yarn bulid
+        run: yarn build
         env:
           Node_ENV: production
 
